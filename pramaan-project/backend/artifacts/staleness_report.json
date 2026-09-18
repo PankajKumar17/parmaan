@@ -1,0 +1,9 @@
+{
+  "stale": true,
+  "reasons": [
+    "dataset current path missing \u2014 cannot verify",
+    "model current path missing \u2014 cannot verify",
+    "pipeline issuance baseline missing \u2014 cannot verify"
+  ],
+  "checked_at": "2026-09-18T13:12:39.188901+00:00"
+}

@@ -1,0 +1,16 @@
+numpy
+torch
+onnxruntime
+scikit-learn
+opencv-python
+pillow
+cryptography
+networkx
+pycocotools
+fastapi
+uvicorn
+streamlit
+sqlalchemy
+PyJWT
+python-multipart
+gunicorn

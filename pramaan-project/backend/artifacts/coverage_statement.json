@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-09-18T13:12:39.188938+00:00",
+  "supported_attack_classes": {
+    "label-flip": "cf. MITRE ATLAS: Poison Training Data",
+    "near-duplicate flooding": "cf. MITRE ATLAS: Poison Training Data",
+    "OOD insertion": "cf. MITRE ATLAS: Evade ML Model",
+    "model substitution": "cf. MITRE ATLAS: ML Supply Chain Compromise",
+    "candidate backdoors": "cf. MITRE ATLAS: Backdoor ML Model",
+    "inference tampering & replay": "cf. MITRE ATLAS: AI Model Inference API Access (related access surface; replay is not a direct taxonomy equivalence)"
+  },
+  "access_assumptions": {
+    "used": "not supplied; capability eligibility does not establish execution",
+    "capabilities": {
+      "Model Identity (hash check)": {
+        "white_box": "yes",
+        "gray_box": "yes",
+        "black_box": "yes"
+      },
+      "Weight/activation statistics": {
+        "white_box": "yes",
+        "gray_box": "partial",
+        "black_box": "no"
+      },
+      "Trigger reconstruction": {
+        "white_box": "yes",
+        "gray_box": "partial",
+        "black_box": "no"
+      },
+      "Fine-Pruning": {
+        "white_box": "yes",
+        "gray_box": "no",
+        "black_box": "no"
+      },
+      "Reference-battery comparison": {
+        "white_box": "yes",
+        "gray_box": "yes",
+        "black_box": "yes (output-only)"
+      },
+      "Merkle activation commitment": {
+        "white_box": "yes",
+        "gray_box": "partial",
+        "black_box": "no"
+      }
+    }
+  },
+  "black_box_fallback": "Use output-only reference-battery comparisons when outputs and a trusted reference are available. Hash identity requires a supplied model file and trusted digest even in black-box mode. Skip unavailable weights, activations, gradient-based reconstruction, fine-pruning, and Merkle activation commitments; disclose skipped/degraded checks as assurance debt. Fallback execution is not asserted without assessment evidence.",
+  "limitations": [
+    "this convergence logic does not yet correct for detector signal correlation \u2014 treated as a known, stated limitation, not silently ignored.",
+    "Naive-correlation limitation: same-modality agreement receives no confidence boost; declared shared signals or reused detectors also suppress the boost. Cross-modality boosts are heuristic, not calibrated probabilities.",
+    "Supported attack classes describe available checks, not guaranteed detection or proof of absence.",
+    "Candidate backdoors remain hypotheses; unknown attacks and unobserved triggers are unsupported.",
+    "Inference computation checks provide sampled, partial assurance, not a full cryptographic guarantee (zkML out of scope).",
+    "Replay detection requires persistent verifier state; a passport signature alone does not establish freshness.",
+    {
+      "evaluation": "ablation",
+      "status": "not evaluated",
+      "results": null,
+      "note": "No robustness guarantee is inferred; missing, negative, and unoptimized results remain visible."
+    },
+    {
+      "evaluation": "adaptive_attacker",
+      "status": "not evaluated",
+      "results": null,
+      "note": "No robustness guarantee is inferred; missing, negative, and unoptimized results remain visible."
+    }
+  ],
+  "assurance_debt": [],
+  "ablation_results": null,
+  "adaptive_attacker_results": null
+}

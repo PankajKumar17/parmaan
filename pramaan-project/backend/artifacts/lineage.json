@@ -1,0 +1,1262 @@
+{
+  "nodes": [
+    {
+      "id": "demo_contributor",
+      "node_type": "contributor",
+      "hash": "eda5faea8ea28e818f5d5dc4762694a810759bc10781beff144cfa5c3f33e44a",
+      "ref": "demo_contributor",
+      "orphan": false
+    },
+    {
+      "id": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "node_type": "dataset",
+      "hash": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "ref": {
+        "dataset_version": "1",
+        "format": "coco",
+        "samples": {
+          "images/0000.png": {
+            "sha256": "68eb562430b8508f014985a342ffc9f43e30a0f13577658c86260df838785d6c",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0001.png": {
+            "sha256": "79d5882af46d18caee9fd445d2a8186fb2189814f2045de6869e9fcdaf573e7c",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0002.png": {
+            "sha256": "80f25a8f7d3b0f0516ac4a63b7311963fd3abf03a435e168d8b8b525fcae12ca",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0003.png": {
+            "sha256": "5a027f3a955eb66b79e9ae9c0a5c0e9dbf06602db2aeffe1fcb65f6b45f26e3b",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0004.png": {
+            "sha256": "b2d24127d6e9bcbb31d52d24a8593cbe27349289d38fbc2656db807e6d34881d",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0005.png": {
+            "sha256": "b610b3ed68183f1321a857e01fdc96f81563705dafeb7c34c174cf07e16635ec",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0006.png": {
+            "sha256": "68eb562430b8508f014985a342ffc9f43e30a0f13577658c86260df838785d6c",
+            "contributor_id": null,
+            "batch_id": null
+          },
+          "images/0007.png": {
+            "sha256": "74b0c61828abf9c34abcaef98e33d0512e72427975827ef36c41c73e4df479e5",
+            "contributor_id": null,
+            "batch_id": null
+          }
+        },
+        "annotation_hash": "3a1c55821f0e90ecfc1a46846f81cae82fbef8b3b5b128c1c446c283f659e66a",
+        "class_distribution": {
+          "1": 7,
+          "2": 1
+        },
+        "class_names": {
+          "1": "object",
+          "2": "other"
+        },
+        "contributor_id": null,
+        "batch_id": null,
+        "files": {
+          "images/0000.png": "68eb562430b8508f014985a342ffc9f43e30a0f13577658c86260df838785d6c",
+          "images/0001.png": "79d5882af46d18caee9fd445d2a8186fb2189814f2045de6869e9fcdaf573e7c",
+          "images/0002.png": "80f25a8f7d3b0f0516ac4a63b7311963fd3abf03a435e168d8b8b525fcae12ca",
+          "images/0003.png": "5a027f3a955eb66b79e9ae9c0a5c0e9dbf06602db2aeffe1fcb65f6b45f26e3b",
+          "images/0004.png": "b2d24127d6e9bcbb31d52d24a8593cbe27349289d38fbc2656db807e6d34881d",
+          "images/0005.png": "b610b3ed68183f1321a857e01fdc96f81563705dafeb7c34c174cf07e16635ec",
+          "images/0006.png": "68eb562430b8508f014985a342ffc9f43e30a0f13577658c86260df838785d6c",
+          "images/0007.png": "74b0c61828abf9c34abcaef98e33d0512e72427975827ef36c41c73e4df479e5"
+        },
+        "sources": [
+          "annotations/instances.json"
+        ],
+        "schema_version": "1"
+      },
+      "orphan": false
+    },
+    {
+      "id": "87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80",
+      "node_type": "model",
+      "hash": "87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80",
+      "ref": {
+        "model_hash": "87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80",
+        "architecture": "logistic_regression",
+        "expected_metrics": {
+          "accuracy": 1.0
+        },
+        "activation_statistics": {},
+        "output_fingerprints": {},
+        "model_format": "onnx",
+        "reference_battery_id": "dummy",
+        "calibration_set_id": "dummy",
+        "schema_version": "1"
+      },
+      "orphan": false
+    },
+    {
+      "id": "unknown-training-dataset:87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80",
+      "node_type": "dataset",
+      "hash": null,
+      "ref": "unknown-training-dataset:87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80",
+      "orphan": true
+    },
+    {
+      "id": "018a92e3751ec26bdbd6b3a9cbc1800e45c74c49207e7072cc60a4ae93c5d2b7",
+      "node_type": "inference",
+      "hash": "018a92e3751ec26bdbd6b3a9cbc1800e45c74c49207e7072cc60a4ae93c5d2b7",
+      "ref": {
+        "input_hash": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+        "model_digest": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031",
+        "output_hash": "f4601cde5750a8c3ddcd6025a0cf14a539e30001325b724557753f837e48c56d",
+        "sequence_number": 0,
+        "nonce": "4b27e1dcb5a041e9a77cc057eb4b29a5",
+        "timestamp": 1789737148.1555467,
+        "previous_record_hash": "",
+        "merkle_root": null,
+        "consumer_id": null
+      },
+      "orphan": false
+    },
+    {
+      "id": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+      "node_type": "model",
+      "hash": null,
+      "ref": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+      "orphan": true
+    },
+    {
+      "id": "f9d05299787dd38d4215cdab148d79f0d941ee44edc1db9f3cef64593065c602",
+      "node_type": "inference",
+      "hash": "f9d05299787dd38d4215cdab148d79f0d941ee44edc1db9f3cef64593065c602",
+      "ref": {
+        "input_hash": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+        "model_digest": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031",
+        "output_hash": "e5626e6d3c7790081a81a09c352ad3bab63de23e782fae72a3591a92ef936bd5",
+        "sequence_number": 1,
+        "nonce": "7bd7ac84e6e04c27ba9083996f3b7eb2",
+        "timestamp": 1789737148.1558444,
+        "previous_record_hash": "018a92e3751ec26bdbd6b3a9cbc1800e45c74c49207e7072cc60a4ae93c5d2b7",
+        "merkle_root": null,
+        "consumer_id": null
+      },
+      "orphan": false
+    },
+    {
+      "id": "362c1234e1332eb7051dab8968208bf2f8e4bf5802ab34a34bba97aed3824666",
+      "node_type": "inference",
+      "hash": "362c1234e1332eb7051dab8968208bf2f8e4bf5802ab34a34bba97aed3824666",
+      "ref": {
+        "input_hash": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+        "model_digest": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031",
+        "output_hash": "ca2ecca36021d7e50cf5abfd3d6f7b4375897e06bcd572710852d5583648f2da",
+        "sequence_number": 2,
+        "nonce": "6c9a4d757737403388923009d04537bb",
+        "timestamp": 1789737148.155951,
+        "previous_record_hash": "f9d05299787dd38d4215cdab148d79f0d941ee44edc1db9f3cef64593065c602",
+        "merkle_root": null,
+        "consumer_id": null
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:6dfcbfadf26fc44c80fca8bea081ca2f4ae063bec3d3ba7e19bdc602856f63c7",
+      "node_type": "finding",
+      "hash": "6dfcbfadf26fc44c80fca8bea081ca2f4ae063bec3d3ba7e19bdc602856f63c7",
+      "ref": {
+        "asset_id": "0001.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:b591acf09b891240412b49bc7036ee81128806aa8490c137f599f592bd9d2aea",
+      "node_type": "finding",
+      "hash": "b591acf09b891240412b49bc7036ee81128806aa8490c137f599f592bd9d2aea",
+      "ref": {
+        "asset_id": "0001.png",
+        "finding_type": "label_disagreement",
+        "severity": 0.65,
+        "confidence": 1.0,
+        "evidence": [
+          "Leave-one-out k-NN predicts 0, stated label=1; 5/5 neighbors agree.",
+          "Neighbor samples: ['0003.png', '0005.png', '0000.png', '0002.png', '0006.png']"
+        ],
+        "modality": "ANNOTATION",
+        "provenance": {
+          "detector_id": "mislabeling",
+          "version": "1.0.0",
+          "input_hashes": [
+            "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+            "17550ce418055ff4cd54b803e704300eac4212c3edcef00f92f1e6e506a5b069",
+            "04ae04134c8318578c932394683055fea108f3f586ff5b055613752c5f03e6f5",
+            "8423eadd63f4494b07d11162c53a38f944f64bdd6e238483ebfc2fb47a1daf56",
+            "68f962b48b11fe16e782b2e07047abb2dfbfdc78a67e39410e00508331a5d1e7",
+            "e7baeb7909609738a047447dae0128d423ae95be4d0b6b00db6f542b86b2d2f2",
+            "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+            "cc143326a2646c605ea66139d7b440df7cbde18c050f1f8cf4dd30f42cfe7123",
+            "5f95c8b4bcca621b34d1eb3ea4eab409407f7d9118993a3113eae717e287a7ae"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "Neighbor vote fraction is uncalibrated; simple mean-RGB/histogram features may confuse legitimate classes. Corrupted neighbors, class imbalance, and feature scaling can cause confident false positives."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:6e91c332f8a69232b9058687ef0d07d66d623b6a4442a834eb2625b68516d624",
+      "node_type": "finding",
+      "hash": "6e91c332f8a69232b9058687ef0d07d66d623b6a4442a834eb2625b68516d624",
+      "ref": {
+        "asset_id": "0002.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:bfe335197f2302c36d6cbf6f2c8ae4a96703439a2326cc7c4eb05959acc86d18",
+      "node_type": "finding",
+      "hash": "bfe335197f2302c36d6cbf6f2c8ae4a96703439a2326cc7c4eb05959acc86d18",
+      "ref": {
+        "asset_id": "0002.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:4b67706f7880209f929783154511e69cb4b3dce8d4971dc1eee01355748b31e9",
+      "node_type": "finding",
+      "hash": "4b67706f7880209f929783154511e69cb4b3dce8d4971dc1eee01355748b31e9",
+      "ref": {
+        "asset_id": "0003.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:5868e49430f40cf06c4873abe6520a3a1ad42aaf86a9380ad128fb3b33cf96bb",
+      "node_type": "finding",
+      "hash": "5868e49430f40cf06c4873abe6520a3a1ad42aaf86a9380ad128fb3b33cf96bb",
+      "ref": {
+        "asset_id": "0003.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:389307d5e8c8848b019a9643a7ec2619b24a3595ce078e7eca33fb03741ca8cf",
+      "node_type": "finding",
+      "hash": "389307d5e8c8848b019a9643a7ec2619b24a3595ce078e7eca33fb03741ca8cf",
+      "ref": {
+        "asset_id": "0003.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:90c5c8494877d3011671359d1b8ee870af1f1a4f9cdc3b903b1e1bb09433f71b",
+      "node_type": "finding",
+      "hash": "90c5c8494877d3011671359d1b8ee870af1f1a4f9cdc3b903b1e1bb09433f71b",
+      "ref": {
+        "asset_id": "0004.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:17902b8cae20dc97e0d2f9f4ac85c3955e42516222cd5cd513f53da7c872cd3a",
+      "node_type": "finding",
+      "hash": "17902b8cae20dc97e0d2f9f4ac85c3955e42516222cd5cd513f53da7c872cd3a",
+      "ref": {
+        "asset_id": "0004.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:cb6126513386bd7fff73f42de7be15e0d8610fba98e6db9f28c842e989308d77",
+      "node_type": "finding",
+      "hash": "cb6126513386bd7fff73f42de7be15e0d8610fba98e6db9f28c842e989308d77",
+      "ref": {
+        "asset_id": "0004.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:b3a0b345a1ec089ecde67980aec0344da16d9f90fc0dd707db31f354c8e1cbd6",
+      "node_type": "finding",
+      "hash": "b3a0b345a1ec089ecde67980aec0344da16d9f90fc0dd707db31f354c8e1cbd6",
+      "ref": {
+        "asset_id": "0004.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:0f4b3b4d8fabb21a00b680f888a141f4c150bd35e9549a0453368a1888921998",
+      "node_type": "finding",
+      "hash": "0f4b3b4d8fabb21a00b680f888a141f4c150bd35e9549a0453368a1888921998",
+      "ref": {
+        "asset_id": "0005.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:da53bbdff78c49c700cbd908da412b6f6a6d769341efc696422760ddac1983b7",
+      "node_type": "finding",
+      "hash": "da53bbdff78c49c700cbd908da412b6f6a6d769341efc696422760ddac1983b7",
+      "ref": {
+        "asset_id": "0005.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:a940f1e866826cecfeccc65626fbb4b442431484d4661b352802fa40c402fe02",
+      "node_type": "finding",
+      "hash": "a940f1e866826cecfeccc65626fbb4b442431484d4661b352802fa40c402fe02",
+      "ref": {
+        "asset_id": "0005.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:499a30efe2e394b53b202f2ef993713fdbcb411575564c42298c934ef547518f",
+      "node_type": "finding",
+      "hash": "499a30efe2e394b53b202f2ef993713fdbcb411575564c42298c934ef547518f",
+      "ref": {
+        "asset_id": "0005.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:62acea27b8cfbd8faefb83695411e0611cbb13bf37ef6869e926bad14f7afa95",
+      "node_type": "finding",
+      "hash": "62acea27b8cfbd8faefb83695411e0611cbb13bf37ef6869e926bad14f7afa95",
+      "ref": {
+        "asset_id": "0005.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:28cb97629bdbf729d07b6ef3c8df663b829d4c67d63232becff672af1a362e74",
+      "node_type": "finding",
+      "hash": "28cb97629bdbf729d07b6ef3c8df663b829d4c67d63232becff672af1a362e74",
+      "ref": {
+        "asset_id": "0006.png",
+        "finding_type": "composite_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6",
+          "pHash Hamming distance to 0001.png: 0/63; threshold=6",
+          "pHash Hamming distance to 0002.png: 0/63; threshold=6",
+          "pHash Hamming distance to 0003.png: 0/63; threshold=6",
+          "pHash Hamming distance to 0004.png: 0/63; threshold=6",
+          "pHash Hamming distance to 0005.png: 0/63; threshold=6",
+          "Offline mean-RGB cosine cluster: ['0000.png', '0006.png']; single-link similarity threshold=0.995",
+          "Complementary signals converged for duplicate: duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (EMBEDDING).",
+          "No confidence boost: declared shared signal or reused detector.",
+          "this convergence logic does not yet correct for detector signal correlation \u2014 treated as a known, stated limitation, not silently ignored."
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "correlation_engine",
+          "version": "1.0.0",
+          "detector_ids": [
+            "duplicates"
+          ],
+          "signal_ids": [],
+          "modalities": [
+            "EMBEDDING",
+            "PIXEL"
+          ],
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+          ],
+          "config_hash": "69464db482ed95353c632c0128a70926bede845c6bf9aa116bbf35c5b9973000",
+          "source_provenance": [
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            },
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            },
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            },
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            },
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            },
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            },
+            {
+              "detector_id": "duplicates",
+              "version": "1.0.0",
+              "input_hashes": [
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+                "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+              ],
+              "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+            }
+          ]
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.",
+          "Average color is only an offline embedding proxy, not semantic proof. Real locally cached CLIP/ResNet embeddings can replace embedding_features later; unrelated images can share colors.",
+          "Single-link clusters can chain; not every pair exceeds the threshold. Both passes share image content and are not calibrated."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:45792a5cf7e08f0f8d09044d5a2a1b0b7bea15b7aa9e4bb04c9a663e6813962d",
+      "node_type": "finding",
+      "hash": "45792a5cf7e08f0f8d09044d5a2a1b0b7bea15b7aa9e4bb04c9a663e6813962d",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:750aca9750e0e78fbee25cc07d92e8952cee882cf66cb8618b937e109f6ea732",
+      "node_type": "finding",
+      "hash": "750aca9750e0e78fbee25cc07d92e8952cee882cf66cb8618b937e109f6ea732",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:7489656d6aab3930ae53081f93152836ea10e5cb7cfac09b79907b5b0618016e",
+      "node_type": "finding",
+      "hash": "7489656d6aab3930ae53081f93152836ea10e5cb7cfac09b79907b5b0618016e",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:a8650bd4ff018dc4f8cb651c2fadd393e4ac5700c545aa181ca4716932f9b865",
+      "node_type": "finding",
+      "hash": "a8650bd4ff018dc4f8cb651c2fadd393e4ac5700c545aa181ca4716932f9b865",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:1e1da2b5a1858e23a12652c40cbb034f769a9e057e059142aec1c6abf53274d6",
+      "node_type": "finding",
+      "hash": "1e1da2b5a1858e23a12652c40cbb034f769a9e057e059142aec1c6abf53274d6",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:b626a1003e2b6b7cc28f729123011796ba7fd1dc43d5787eda46bd5ab0b90002",
+      "node_type": "finding",
+      "hash": "b626a1003e2b6b7cc28f729123011796ba7fd1dc43d5787eda46bd5ab0b90002",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0005.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:7430f87221f0addf3db4bf3b7b7e091597d3d1bb9b2e919e88e2201c82208499",
+      "node_type": "finding",
+      "hash": "7430f87221f0addf3db4bf3b7b7e091597d3d1bb9b2e919e88e2201c82208499",
+      "ref": {
+        "asset_id": "0007.png",
+        "finding_type": "perceptual_duplicate",
+        "severity": 0.5,
+        "confidence": 0.9,
+        "evidence": [
+          "pHash Hamming distance to 0006.png: 0/63; threshold=6"
+        ],
+        "modality": "PIXEL",
+        "provenance": {
+          "detector_id": "duplicates",
+          "version": "1.0.0",
+          "input_hashes": [
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "sample",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:2e8a42becccf69ce6a9f1291f622c166e4c29ef1a0f0df90b81727574aa0c6b0",
+      "node_type": "finding",
+      "hash": "2e8a42becccf69ce6a9f1291f622c166e4c29ef1a0f0df90b81727574aa0c6b0",
+      "ref": {
+        "asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+        "finding_type": "reference_battery_unverified",
+        "severity": 0.1,
+        "confidence": 0.0,
+        "evidence": [
+          "DEGRADED: Reference battery unavailable (InvalidProtobuf: [ONNXRuntimeError] : 7 : INVALID_PROTOBUF : Load model from C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz failed:Protobuf parsing failed.). This check was not completed."
+        ],
+        "modality": "BEHAVIORAL",
+        "provenance": {
+          "detector_id": "reference_battery",
+          "version": "1.0.0",
+          "input_hashes": [
+            "6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "model",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "An unavailable check is an assurance gap, not evidence of tampering."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:9ee0c31f593682b8e857991517610ce55e226575c3ddbcdc9e2d18119ce17512",
+      "node_type": "finding",
+      "hash": "9ee0c31f593682b8e857991517610ce55e226575c3ddbcdc9e2d18119ce17512",
+      "ref": {
+        "asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+        "finding_type": "weight_stats_unverified",
+        "severity": 0.1,
+        "confidence": 0.0,
+        "evidence": [
+          "DEGRADED: Weight statistics unavailable (ValueError: An ONNX reference manifest is required; no Torch execution is performed). This check was not completed."
+        ],
+        "modality": "BEHAVIORAL",
+        "provenance": {
+          "detector_id": "weight_stats",
+          "version": "1.0.0",
+          "input_hashes": [
+            "6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "model",
+        "access_assumptions": "white_box",
+        "counter_evidence": [
+          "An unavailable check is an assurance gap, not evidence of tampering."
+        ]
+      },
+      "orphan": false
+    },
+    {
+      "id": "finding:c2dc772afac91620f716f82a78101e1ce9b347adfb626e4b3afc0c40760cbc26",
+      "node_type": "finding",
+      "hash": "c2dc772afac91620f716f82a78101e1ce9b347adfb626e4b3afc0c40760cbc26",
+      "ref": {
+        "asset_id": "64299c9efaf23c4272ba75ec631379deff9302c64124302ea77cff8c29a4c951",
+        "finding_type": "distribution_shift",
+        "severity": 0.8,
+        "confidence": 0.6,
+        "evidence": [
+          "Distribution shift: unbiased RBF MMD squared=-0.125, threshold=0.1, gamma=0.000325521; mean marginal histogram KL(reference || current)=0.231049.",
+          "Embedding or image-statistic discrepancies can be consistent with inserted or altered content, but distribution shift alone is not evidence of malicious intent.",
+          "Energy OOD not assessed: class logits were not supplied; embeddings are not treated as logits.",
+          "Heuristic cause attribution: illumination share=25.0%, color share=75.0%, blur_noise share=0.0%, structural share=0.0%.",
+          "Illumination maps to lighting/time-of-day; color to terrain/season; blur_noise to sensor; structural to terrain/viewpoint. These descriptive shares are not causal probabilities and cannot identify manipulation."
+        ],
+        "modality": "EMBEDDING",
+        "provenance": {
+          "detector_id": "drift_vs_manipulation",
+          "version": "1.0.0",
+          "input_hashes": [
+            "f3ec296dcdc3546bc08bddc5895a48a04dd0731dbd9d92da5d709ef9e0e1342c",
+            "eb0c826a81440d40427ac9f39036cea0e591c3799e4a7953c5c573aa1d8cd8a4",
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+            "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+            "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+            "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+            "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+            "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+            "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3",
+            "00cd5c4551d34585532b71a91cc88b7557c12ba8b2de0c8b0785a8a5e133cc3d"
+          ],
+          "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+        },
+        "recommended_action": "review",
+        "quarantine_scope": "batch",
+        "access_assumptions": "black_box",
+        "counter_evidence": [
+          "Cause-breakdown attribution: illumination share=25.0%, consistent with ordinary time-of-day/lighting variation rather than injected content; color share=75.0% may reflect terrain/season; blur_noise share=0.0% may reflect sensor changes; structural share=0.0% may reflect terrain/viewpoint.",
+          "Attribution is heuristic, not a causal determination. Sampling variation, model/preprocessing changes, and legitimate operational drift can explain discrepancies; confidence is uncalibrated and review does not presume manipulation."
+        ]
+      },
+      "orphan": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "demo_contributor",
+      "target": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "018a92e3751ec26bdbd6b3a9cbc1800e45c74c49207e7072cc60a4ae93c5d2b7"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "f9d05299787dd38d4215cdab148d79f0d941ee44edc1db9f3cef64593065c602"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "362c1234e1332eb7051dab8968208bf2f8e4bf5802ab34a34bba97aed3824666"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:6dfcbfadf26fc44c80fca8bea081ca2f4ae063bec3d3ba7e19bdc602856f63c7"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:b591acf09b891240412b49bc7036ee81128806aa8490c137f599f592bd9d2aea"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:6e91c332f8a69232b9058687ef0d07d66d623b6a4442a834eb2625b68516d624"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:bfe335197f2302c36d6cbf6f2c8ae4a96703439a2326cc7c4eb05959acc86d18"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:4b67706f7880209f929783154511e69cb4b3dce8d4971dc1eee01355748b31e9"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:5868e49430f40cf06c4873abe6520a3a1ad42aaf86a9380ad128fb3b33cf96bb"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:389307d5e8c8848b019a9643a7ec2619b24a3595ce078e7eca33fb03741ca8cf"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:90c5c8494877d3011671359d1b8ee870af1f1a4f9cdc3b903b1e1bb09433f71b"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:17902b8cae20dc97e0d2f9f4ac85c3955e42516222cd5cd513f53da7c872cd3a"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:cb6126513386bd7fff73f42de7be15e0d8610fba98e6db9f28c842e989308d77"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:b3a0b345a1ec089ecde67980aec0344da16d9f90fc0dd707db31f354c8e1cbd6"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:0f4b3b4d8fabb21a00b680f888a141f4c150bd35e9549a0453368a1888921998"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:da53bbdff78c49c700cbd908da412b6f6a6d769341efc696422760ddac1983b7"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:a940f1e866826cecfeccc65626fbb4b442431484d4661b352802fa40c402fe02"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:499a30efe2e394b53b202f2ef993713fdbcb411575564c42298c934ef547518f"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:62acea27b8cfbd8faefb83695411e0611cbb13bf37ef6869e926bad14f7afa95"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:28cb97629bdbf729d07b6ef3c8df663b829d4c67d63232becff672af1a362e74"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:45792a5cf7e08f0f8d09044d5a2a1b0b7bea15b7aa9e4bb04c9a663e6813962d"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:750aca9750e0e78fbee25cc07d92e8952cee882cf66cb8618b937e109f6ea732"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:7489656d6aab3930ae53081f93152836ea10e5cb7cfac09b79907b5b0618016e"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:a8650bd4ff018dc4f8cb651c2fadd393e4ac5700c545aa181ca4716932f9b865"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:1e1da2b5a1858e23a12652c40cbb034f769a9e057e059142aec1c6abf53274d6"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:b626a1003e2b6b7cc28f729123011796ba7fd1dc43d5787eda46bd5ab0b90002"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:7430f87221f0addf3db4bf3b7b7e091597d3d1bb9b2e919e88e2201c82208499"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:2e8a42becccf69ce6a9f1291f622c166e4c29ef1a0f0df90b81727574aa0c6b0"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:9ee0c31f593682b8e857991517610ce55e226575c3ddbcdc9e2d18119ce17512"
+    },
+    {
+      "source": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+      "target": "finding:c2dc772afac91620f716f82a78101e1ce9b347adfb626e4b3afc0c40760cbc26"
+    },
+    {
+      "source": "unknown-training-dataset:87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80",
+      "target": "87bd53c3017109fa309e3b9b647c66497e350d815b39719924b2637f4652df80"
+    },
+    {
+      "source": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+      "target": "018a92e3751ec26bdbd6b3a9cbc1800e45c74c49207e7072cc60a4ae93c5d2b7"
+    },
+    {
+      "source": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+      "target": "f9d05299787dd38d4215cdab148d79f0d941ee44edc1db9f3cef64593065c602"
+    },
+    {
+      "source": "b4aab9c7aafad98d78e8fb2a97f8605103924f51a69d34cded9172313394eca7",
+      "target": "362c1234e1332eb7051dab8968208bf2f8e4bf5802ab34a34bba97aed3824666"
+    }
+  ]
+}

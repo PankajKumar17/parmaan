@@ -1,0 +1,2081 @@
+{
+  "asset_id": "0af9c67924bbba7fb8594bca41595d13e870bc355c319ad6c3139291cdeb0def",
+  "findings": [
+    {
+      "asset_id": "0001.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0002.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0002.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0003.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0003.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0003.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0005.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0005.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0006.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "semantic_near_duplicate",
+      "severity": 0.4,
+      "confidence": 0.55,
+      "evidence": [
+        "Offline mean-RGB cosine cluster: ['0000.png', '0006.png']; single-link similarity threshold=0.995"
+      ],
+      "modality": "Modality.EMBEDDING",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "Average color is only an offline embedding proxy, not semantic proof. Real locally cached CLIP/ResNet embeddings can replace embedding_features later; unrelated images can share colors.",
+        "Single-link clusters can chain; not every pair exceeds the threshold. Both passes share image content and are not calibrated."
+      ]
+    },
+    {
+      "asset_id": "0001.png",
+      "finding_type": "label_disagreement",
+      "severity": 0.65,
+      "confidence": 1.0,
+      "evidence": [
+        "Leave-one-out k-NN predicts 0, stated label=1; 5/5 neighbors agree.",
+        "Neighbor samples: ['0003.png', '0005.png', '0000.png', '0002.png', '0006.png']"
+      ],
+      "modality": "Modality.ANNOTATION",
+      "provenance": {
+        "detector_id": "mislabeling",
+        "version": "1.0.0",
+        "input_hashes": [
+          "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+          "17550ce418055ff4cd54b803e704300eac4212c3edcef00f92f1e6e506a5b069",
+          "04ae04134c8318578c932394683055fea108f3f586ff5b055613752c5f03e6f5",
+          "8423eadd63f4494b07d11162c53a38f944f64bdd6e238483ebfc2fb47a1daf56",
+          "68f962b48b11fe16e782b2e07047abb2dfbfdc78a67e39410e00508331a5d1e7",
+          "e7baeb7909609738a047447dae0128d423ae95be4d0b6b00db6f542b86b2d2f2",
+          "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+          "cc143326a2646c605ea66139d7b440df7cbde18c050f1f8cf4dd30f42cfe7123",
+          "5f95c8b4bcca621b34d1eb3ea4eab409407f7d9118993a3113eae717e287a7ae"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "Neighbor vote fraction is uncalibrated; simple mean-RGB/histogram features may confuse legitimate classes. Corrupted neighbors, class imbalance, and feature scaling can cause confident false positives."
+      ]
+    },
+    {
+      "asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+      "finding_type": "reference_battery_unverified",
+      "severity": 0.1,
+      "confidence": 0.0,
+      "evidence": [
+        "DEGRADED: Reference battery unavailable (InvalidProtobuf: [ONNXRuntimeError] : 7 : INVALID_PROTOBUF : Load model from C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz failed:Protobuf parsing failed.). This check was not completed."
+      ],
+      "modality": "Modality.BEHAVIORAL",
+      "provenance": {
+        "detector_id": "reference_battery",
+        "version": "1.0.0",
+        "input_hashes": [
+          "6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "model",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "An unavailable check is an assurance gap, not evidence of tampering."
+      ]
+    },
+    {
+      "asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+      "finding_type": "weight_stats_unverified",
+      "severity": 0.1,
+      "confidence": 0.0,
+      "evidence": [
+        "DEGRADED: Weight statistics unavailable (ValueError: An ONNX reference manifest is required; no Torch execution is performed). This check was not completed."
+      ],
+      "modality": "Modality.BEHAVIORAL",
+      "provenance": {
+        "detector_id": "weight_stats",
+        "version": "1.0.0",
+        "input_hashes": [
+          "6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "model",
+      "access_assumptions": "white_box",
+      "counter_evidence": [
+        "An unavailable check is an assurance gap, not evidence of tampering."
+      ]
+    },
+    {
+      "asset_id": "64299c9efaf23c4272ba75ec631379deff9302c64124302ea77cff8c29a4c951",
+      "finding_type": "distribution_shift",
+      "severity": 0.8,
+      "confidence": 0.6,
+      "evidence": [
+        "Distribution shift: unbiased RBF MMD squared=-0.125, threshold=0.1, gamma=0.000325521; mean marginal histogram KL(reference || current)=0.231049.",
+        "Embedding or image-statistic discrepancies can be consistent with inserted or altered content, but distribution shift alone is not evidence of malicious intent.",
+        "Energy OOD not assessed: class logits were not supplied; embeddings are not treated as logits.",
+        "Heuristic cause attribution: illumination share=25.0%, color share=75.0%, blur_noise share=0.0%, structural share=0.0%.",
+        "Illumination maps to lighting/time-of-day; color to terrain/season; blur_noise to sensor; structural to terrain/viewpoint. These descriptive shares are not causal probabilities and cannot identify manipulation."
+      ],
+      "modality": "Modality.EMBEDDING",
+      "provenance": {
+        "detector_id": "drift_vs_manipulation",
+        "version": "1.0.0",
+        "input_hashes": [
+          "f3ec296dcdc3546bc08bddc5895a48a04dd0731dbd9d92da5d709ef9e0e1342c",
+          "eb0c826a81440d40427ac9f39036cea0e591c3799e4a7953c5c573aa1d8cd8a4",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3",
+          "00cd5c4551d34585532b71a91cc88b7557c12ba8b2de0c8b0785a8a5e133cc3d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "batch",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "Cause-breakdown attribution: illumination share=25.0%, consistent with ordinary time-of-day/lighting variation rather than injected content; color share=75.0% may reflect terrain/season; blur_noise share=0.0% may reflect sensor changes; structural share=0.0% may reflect terrain/viewpoint.",
+        "Attribution is heuristic, not a causal determination. Sampling variation, model/preprocessing changes, and legitimate operational drift can explain discrepancies; confidence is uncalibrated and review does not presume manipulation."
+      ]
+    }
+  ],
+  "converged_findings": [
+    {
+      "asset_id": "0001.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0001.png",
+      "finding_type": "label_disagreement",
+      "severity": 0.65,
+      "confidence": 1.0,
+      "evidence": [
+        "Leave-one-out k-NN predicts 0, stated label=1; 5/5 neighbors agree.",
+        "Neighbor samples: ['0003.png', '0005.png', '0000.png', '0002.png', '0006.png']"
+      ],
+      "modality": "Modality.ANNOTATION",
+      "provenance": {
+        "detector_id": "mislabeling",
+        "version": "1.0.0",
+        "input_hashes": [
+          "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+          "17550ce418055ff4cd54b803e704300eac4212c3edcef00f92f1e6e506a5b069",
+          "04ae04134c8318578c932394683055fea108f3f586ff5b055613752c5f03e6f5",
+          "8423eadd63f4494b07d11162c53a38f944f64bdd6e238483ebfc2fb47a1daf56",
+          "68f962b48b11fe16e782b2e07047abb2dfbfdc78a67e39410e00508331a5d1e7",
+          "e7baeb7909609738a047447dae0128d423ae95be4d0b6b00db6f542b86b2d2f2",
+          "725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b",
+          "cc143326a2646c605ea66139d7b440df7cbde18c050f1f8cf4dd30f42cfe7123",
+          "5f95c8b4bcca621b34d1eb3ea4eab409407f7d9118993a3113eae717e287a7ae"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "Neighbor vote fraction is uncalibrated; simple mean-RGB/histogram features may confuse legitimate classes. Corrupted neighbors, class imbalance, and feature scaling can cause confident false positives."
+      ]
+    },
+    {
+      "asset_id": "0002.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0002.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0003.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0003.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0003.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0004.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0005.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0006.png",
+      "finding_type": "composite_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0005.png: 0/63; threshold=6",
+        "Offline mean-RGB cosine cluster: ['0000.png', '0006.png']; single-link similarity threshold=0.995",
+        "Complementary signals converged for duplicate: duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (EMBEDDING).",
+        "No confidence boost: declared shared signal or reused detector.",
+        "this convergence logic does not yet correct for detector signal correlation \u2014 treated as a known, stated limitation, not silently ignored."
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "correlation_engine",
+        "version": "1.0.0",
+        "detector_ids": [
+          "duplicates"
+        ],
+        "signal_ids": [],
+        "modalities": [
+          "EMBEDDING",
+          "PIXEL"
+        ],
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7"
+        ],
+        "config_hash": "69464db482ed95353c632c0128a70926bede845c6bf9aa116bbf35c5b9973000",
+        "source_provenance": [
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          },
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          },
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          },
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          },
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          },
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          },
+          {
+            "detector_id": "duplicates",
+            "version": "1.0.0",
+            "input_hashes": [
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+              "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5"
+            ],
+            "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+          }
+        ]
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.",
+        "Average color is only an offline embedding proxy, not semantic proof. Real locally cached CLIP/ResNet embeddings can replace embedding_features later; unrelated images can share colors.",
+        "Single-link clusters can chain; not every pair exceeds the threshold. Both passes share image content and are not calibrated."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0005.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "0007.png",
+      "finding_type": "perceptual_duplicate",
+      "severity": 0.5,
+      "confidence": 0.9,
+      "evidence": [
+        "pHash Hamming distance to 0006.png: 0/63; threshold=6"
+      ],
+      "modality": "Modality.PIXEL",
+      "provenance": {
+        "detector_id": "duplicates",
+        "version": "1.0.0",
+        "input_hashes": [
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "sample",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ]
+    },
+    {
+      "asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+      "finding_type": "reference_battery_unverified",
+      "severity": 0.1,
+      "confidence": 0.0,
+      "evidence": [
+        "DEGRADED: Reference battery unavailable (InvalidProtobuf: [ONNXRuntimeError] : 7 : INVALID_PROTOBUF : Load model from C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz failed:Protobuf parsing failed.). This check was not completed."
+      ],
+      "modality": "Modality.BEHAVIORAL",
+      "provenance": {
+        "detector_id": "reference_battery",
+        "version": "1.0.0",
+        "input_hashes": [
+          "6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "model",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "An unavailable check is an assurance gap, not evidence of tampering."
+      ]
+    },
+    {
+      "asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+      "finding_type": "weight_stats_unverified",
+      "severity": 0.1,
+      "confidence": 0.0,
+      "evidence": [
+        "DEGRADED: Weight statistics unavailable (ValueError: An ONNX reference manifest is required; no Torch execution is performed). This check was not completed."
+      ],
+      "modality": "Modality.BEHAVIORAL",
+      "provenance": {
+        "detector_id": "weight_stats",
+        "version": "1.0.0",
+        "input_hashes": [
+          "6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "model",
+      "access_assumptions": "white_box",
+      "counter_evidence": [
+        "An unavailable check is an assurance gap, not evidence of tampering."
+      ]
+    },
+    {
+      "asset_id": "64299c9efaf23c4272ba75ec631379deff9302c64124302ea77cff8c29a4c951",
+      "finding_type": "distribution_shift",
+      "severity": 0.8,
+      "confidence": 0.6,
+      "evidence": [
+        "Distribution shift: unbiased RBF MMD squared=-0.125, threshold=0.1, gamma=0.000325521; mean marginal histogram KL(reference || current)=0.231049.",
+        "Embedding or image-statistic discrepancies can be consistent with inserted or altered content, but distribution shift alone is not evidence of malicious intent.",
+        "Energy OOD not assessed: class logits were not supplied; embeddings are not treated as logits.",
+        "Heuristic cause attribution: illumination share=25.0%, color share=75.0%, blur_noise share=0.0%, structural share=0.0%.",
+        "Illumination maps to lighting/time-of-day; color to terrain/season; blur_noise to sensor; structural to terrain/viewpoint. These descriptive shares are not causal probabilities and cannot identify manipulation."
+      ],
+      "modality": "Modality.EMBEDDING",
+      "provenance": {
+        "detector_id": "drift_vs_manipulation",
+        "version": "1.0.0",
+        "input_hashes": [
+          "f3ec296dcdc3546bc08bddc5895a48a04dd0731dbd9d92da5d709ef9e0e1342c",
+          "eb0c826a81440d40427ac9f39036cea0e591c3799e4a7953c5c573aa1d8cd8a4",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d",
+          "311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64",
+          "4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c",
+          "b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7",
+          "3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f",
+          "2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5",
+          "1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3",
+          "00cd5c4551d34585532b71a91cc88b7557c12ba8b2de0c8b0785a8a5e133cc3d"
+        ],
+        "config_hash": "0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031"
+      },
+      "recommended_action": "review",
+      "quarantine_scope": "batch",
+      "access_assumptions": "black_box",
+      "counter_evidence": [
+        "Cause-breakdown attribution: illumination share=25.0%, consistent with ordinary time-of-day/lighting variation rather than injected content; color share=75.0% may reflect terrain/season; blur_noise share=0.0% may reflect sensor changes; structural share=0.0% may reflect terrain/viewpoint.",
+        "Attribution is heuristic, not a causal determination. Sampling variation, model/preprocessing changes, and legitimate operational drift can explain discrepancies; confidence is uncalibrated and review does not presume manipulation."
+      ]
+    }
+  ],
+  "verdicts": [
+    {
+      "finding": "Finding(asset_id='0001.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0001.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0001.png', finding_type='label_disagreement', severity=0.65, confidence=1.0, evidence=['Leave-one-out k-NN predicts 0, stated label=1; 5/5 neighbors agree.', \"Neighbor samples: ['0003.png', '0005.png', '0000.png', '0002.png', '0006.png']\"], modality=<Modality.ANNOTATION: 'ANNOTATION'>, provenance={'detector_id': 'mislabeling', 'version': '1.0.0', 'input_hashes': ['725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b', '17550ce418055ff4cd54b803e704300eac4212c3edcef00f92f1e6e506a5b069', '04ae04134c8318578c932394683055fea108f3f586ff5b055613752c5f03e6f5', '8423eadd63f4494b07d11162c53a38f944f64bdd6e238483ebfc2fb47a1daf56', '68f962b48b11fe16e782b2e07047abb2dfbfdc78a67e39410e00508331a5d1e7', 'e7baeb7909609738a047447dae0128d423ae95be4d0b6b00db6f542b86b2d2f2', '725c4777db328932b197731b1c986c84913a069a2090deb3667b697624551c8b', 'cc143326a2646c605ea66139d7b440df7cbde18c050f1f8cf4dd30f42cfe7123', '5f95c8b4bcca621b34d1eb3ea4eab409407f7d9118993a3113eae717e287a7ae'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['Neighbor vote fraction is uncalibrated; simple mean-RGB/histogram features may confuse legitimate classes. Corrupted neighbors, class imbalance, and feature scaling can cause confident false positives.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0001.png",
+      "evidence": [
+        "Leave-one-out k-NN predicts 0, stated label=1; 5/5 neighbors agree.",
+        "Neighbor samples: ['0003.png', '0005.png', '0000.png', '0002.png', '0006.png']"
+      ],
+      "counter_evidence": [
+        "Neighbor vote fraction is uncalibrated; simple mean-RGB/histogram features may confuse legitimate classes. Corrupted neighbors, class imbalance, and feature scaling can cause confident false positives."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0002.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0002.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0002.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0001.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', '311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0002.png",
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0003.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0003.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0003.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0001.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', '4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0003.png",
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0003.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0002.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', '4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0003.png",
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0004.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', 'b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0004.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0004.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0001.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', 'b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0004.png",
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0004.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0002.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', 'b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0004.png",
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0004.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0003.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c', 'b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0004.png",
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0005.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0005.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0005.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0001.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0005.png",
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0005.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0002.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0005.png",
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0005.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0003.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0005.png",
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0005.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0004.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0005.png",
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0006.png', finding_type='composite_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6', 'pHash Hamming distance to 0001.png: 0/63; threshold=6', 'pHash Hamming distance to 0002.png: 0/63; threshold=6', 'pHash Hamming distance to 0003.png: 0/63; threshold=6', 'pHash Hamming distance to 0004.png: 0/63; threshold=6', 'pHash Hamming distance to 0005.png: 0/63; threshold=6', \"Offline mean-RGB cosine cluster: ['0000.png', '0006.png']; single-link similarity threshold=0.995\", 'Complementary signals converged for duplicate: duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (EMBEDDING).', 'No confidence boost: declared shared signal or reused detector.', 'this convergence logic does not yet correct for detector signal correlation \u2014 treated as a known, stated limitation, not silently ignored.'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'correlation_engine', 'version': '1.0.0', 'detector_ids': ['duplicates'], 'signal_ids': [], 'modalities': ['EMBEDDING', 'PIXEL'], 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f', '4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c', '5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', 'b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7'], 'config_hash': '69464db482ed95353c632c0128a70926bede845c6bf9aa116bbf35c5b9973000', 'source_provenance': [{'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, {'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, {'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, {'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, {'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, {'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, {'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}]}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.', 'Average color is only an offline embedding proxy, not semantic proof. Real locally cached CLIP/ResNet embeddings can replace embedding_features later; unrelated images can share colors.', 'Single-link clusters can chain; not every pair exceeds the threshold. Both passes share image content and are not calibrated.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0006.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6",
+        "pHash Hamming distance to 0005.png: 0/63; threshold=6",
+        "Offline mean-RGB cosine cluster: ['0000.png', '0006.png']; single-link similarity threshold=0.995",
+        "Complementary signals converged for duplicate: duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (PIXEL); duplicates (EMBEDDING).",
+        "No confidence boost: declared shared signal or reused detector.",
+        "this convergence logic does not yet correct for detector signal correlation \u2014 treated as a known, stated limitation, not silently ignored."
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.",
+        "Average color is only an offline embedding proxy, not semantic proof. Real locally cached CLIP/ResNet embeddings can replace embedding_features later; unrelated images can share colors.",
+        "Single-link clusters can chain; not every pair exceeds the threshold. Both passes share image content and are not calibrated."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0000.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0000.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0001.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0001.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0002.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0002.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0003.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0003.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0004.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0004.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0005.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0005.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='0007.png', finding_type='perceptual_duplicate', severity=0.5, confidence=0.9, evidence=['pHash Hamming distance to 0006.png: 0/63; threshold=6'], modality=<Modality.PIXEL: 'PIXEL'>, provenance={'detector_id': 'duplicates', 'version': '1.0.0', 'input_hashes': ['2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='sample', access_assumptions='black_box', counter_evidence=['pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding.'])",
+      "verdict": "REVIEW",
+      "scope": "sample",
+      "scope_asset_id": "0007.png",
+      "evidence": [
+        "pHash Hamming distance to 0006.png: 0/63; threshold=6"
+      ],
+      "counter_evidence": [
+        "pHash can collide on low-detail images; legitimate repeated views are not proof of duplicate flooding."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='C:\\\\Users\\\\panka\\\\AppData\\\\Local\\\\Temp\\\\tmp27aw213e\\\\model\\\\model.npz', finding_type='reference_battery_unverified', severity=0.1, confidence=0.0, evidence=['DEGRADED: Reference battery unavailable (InvalidProtobuf: [ONNXRuntimeError] : 7 : INVALID_PROTOBUF : Load model from C:\\\\Users\\\\panka\\\\AppData\\\\Local\\\\Temp\\\\tmp27aw213e\\\\model\\\\model.npz failed:Protobuf parsing failed.). This check was not completed.'], modality=<Modality.BEHAVIORAL: 'BEHAVIORAL'>, provenance={'detector_id': 'reference_battery', 'version': '1.0.0', 'input_hashes': ['6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='model', access_assumptions='black_box', counter_evidence=['An unavailable check is an assurance gap, not evidence of tampering.'])",
+      "verdict": "ACCEPT",
+      "scope": "model",
+      "scope_asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+      "evidence": [
+        "DEGRADED: Reference battery unavailable (InvalidProtobuf: [ONNXRuntimeError] : 7 : INVALID_PROTOBUF : Load model from C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz failed:Protobuf parsing failed.). This check was not completed."
+      ],
+      "counter_evidence": [
+        "An unavailable check is an assurance gap, not evidence of tampering."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='C:\\\\Users\\\\panka\\\\AppData\\\\Local\\\\Temp\\\\tmp27aw213e\\\\model\\\\model.npz', finding_type='weight_stats_unverified', severity=0.1, confidence=0.0, evidence=['DEGRADED: Weight statistics unavailable (ValueError: An ONNX reference manifest is required; no Torch execution is performed). This check was not completed.'], modality=<Modality.BEHAVIORAL: 'BEHAVIORAL'>, provenance={'detector_id': 'weight_stats', 'version': '1.0.0', 'input_hashes': ['6bb763401897191344959cdb69fd39450bb5cfa54e9e70139f2972221cc96a7d'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='model', access_assumptions='white_box', counter_evidence=['An unavailable check is an assurance gap, not evidence of tampering.'])",
+      "verdict": "ACCEPT",
+      "scope": "model",
+      "scope_asset_id": "C:\\Users\\panka\\AppData\\Local\\Temp\\tmp27aw213e\\model\\model.npz",
+      "evidence": [
+        "DEGRADED: Weight statistics unavailable (ValueError: An ONNX reference manifest is required; no Torch execution is performed). This check was not completed."
+      ],
+      "counter_evidence": [
+        "An unavailable check is an assurance gap, not evidence of tampering."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    },
+    {
+      "finding": "Finding(asset_id='64299c9efaf23c4272ba75ec631379deff9302c64124302ea77cff8c29a4c951', finding_type='distribution_shift', severity=0.8, confidence=0.6, evidence=['Distribution shift: unbiased RBF MMD squared=-0.125, threshold=0.1, gamma=0.000325521; mean marginal histogram KL(reference || current)=0.231049.', 'Embedding or image-statistic discrepancies can be consistent with inserted or altered content, but distribution shift alone is not evidence of malicious intent.', 'Energy OOD not assessed: class logits were not supplied; embeddings are not treated as logits.', 'Heuristic cause attribution: illumination share=25.0%, color share=75.0%, blur_noise share=0.0%, structural share=0.0%.', 'Illumination maps to lighting/time-of-day; color to terrain/season; blur_noise to sensor; structural to terrain/viewpoint. These descriptive shares are not causal probabilities and cannot identify manipulation.'], modality=<Modality.EMBEDDING: 'EMBEDDING'>, provenance={'detector_id': 'drift_vs_manipulation', 'version': '1.0.0', 'input_hashes': ['f3ec296dcdc3546bc08bddc5895a48a04dd0731dbd9d92da5d709ef9e0e1342c', 'eb0c826a81440d40427ac9f39036cea0e591c3799e4a7953c5c573aa1d8cd8a4', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '5ef4b0b605b5fa870faeaff48b9b42aaaba8bce63a3608760af314025748a48d', '311dbd4e0a449d5b97c088c86b9cf1080544c4c098ac7704c0b818483d45cd64', '4439f27110c9b0fc303c1d677e5de0deafa25e1ed3aba835902f905d0ba7ef3c', 'b7ae8e09f241d926608c437b5b7982dcc64ef8f7eaacb35c1c771c86e6a1b4f7', '3a5ae9d07e34bb4268bf9f932e04aa065388db83d1499363cb0e80aca107451f', '2e56e21861dbcc0094936bfc227eb1b67321673188257bcea489584e7eae71c5', '1a7493ff2f2bde5f78405d46eb01abfeaea9b0a95fa5b6cec211b05faa0cf1d3', '00cd5c4551d34585532b71a91cc88b7557c12ba8b2de0c8b0785a8a5e133cc3d'], 'config_hash': '0f3d861c9e4a095f3c976369e2d2a306f0b109b6e197bcf82f034ce56c481031'}, recommended_action='review', quarantine_scope='batch', access_assumptions='black_box', counter_evidence=['Cause-breakdown attribution: illumination share=25.0%, consistent with ordinary time-of-day/lighting variation rather than injected content; color share=75.0% may reflect terrain/season; blur_noise share=0.0% may reflect sensor changes; structural share=0.0% may reflect terrain/viewpoint.', 'Attribution is heuristic, not a causal determination. Sampling variation, model/preprocessing changes, and legitimate operational drift can explain discrepancies; confidence is uncalibrated and review does not presume manipulation.'])",
+      "verdict": "REVIEW",
+      "scope": "batch",
+      "scope_asset_id": "64299c9efaf23c4272ba75ec631379deff9302c64124302ea77cff8c29a4c951",
+      "evidence": [
+        "Distribution shift: unbiased RBF MMD squared=-0.125, threshold=0.1, gamma=0.000325521; mean marginal histogram KL(reference || current)=0.231049.",
+        "Embedding or image-statistic discrepancies can be consistent with inserted or altered content, but distribution shift alone is not evidence of malicious intent.",
+        "Energy OOD not assessed: class logits were not supplied; embeddings are not treated as logits.",
+        "Heuristic cause attribution: illumination share=25.0%, color share=75.0%, blur_noise share=0.0%, structural share=0.0%.",
+        "Illumination maps to lighting/time-of-day; color to terrain/season; blur_noise to sensor; structural to terrain/viewpoint. These descriptive shares are not causal probabilities and cannot identify manipulation."
+      ],
+      "counter_evidence": [
+        "Cause-breakdown attribution: illumination share=25.0%, consistent with ordinary time-of-day/lighting variation rather than injected content; color share=75.0% may reflect terrain/season; blur_noise share=0.0% may reflect sensor changes; structural share=0.0% may reflect terrain/viewpoint.",
+        "Attribution is heuristic, not a causal determination. Sampling variation, model/preprocessing changes, and legitimate operational drift can explain discrepancies; confidence is uncalibrated and review does not presume manipulation."
+      ],
+      "scope_note": "No scoped lineage ancestor; using declared scope or sample fallback."
+    }
+  ],
+  "tier_logs": [
+    {
+      "provider": "duplicates",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "mislabeling",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "ood",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "annotation_integrity",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "reference_battery",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "weight_stats",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "spectral_signature",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "activation_clustering",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "strip",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    },
+    {
+      "provider": "drift_vs_manipulation",
+      "tier": "cheap",
+      "ran": true,
+      "reason": "Cheap tier always runs"
+    }
+  ],
+  "timings": {
+    "duplicates": 0.008176800096407533,
+    "mislabeling": 0.000328300055116415,
+    "ood": 0.0003784000873565674,
+    "annotation_integrity": 0.0003396999090909958,
+    "reference_battery": 0.0654035999905318,
+    "weight_stats": 2.510007470846176e-05,
+    "spectral_signature": 10.711688299896196,
+    "activation_clustering": 0.002269200049340725,
+    "strip": 0.0024097999557852745,
+    "drift_vs_manipulation": 0.21973740006797016
+  },
+  "assessment_time": 11.01091718673706
+}
